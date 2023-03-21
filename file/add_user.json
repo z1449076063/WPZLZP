@@ -1,0 +1,27 @@
+[{
+		"desc": "登录成功",
+		"add_data": {
+			"loginName": "13552601697",
+			"userContact": "13552601697",
+			"userName": "测试账号",
+			"isEnable": 0,
+			"munit": 11,
+			"isAlone": 0,
+			"roleType": 3
+		},
+		"message": "插入成功"
+	},{
+  "desc": "用户名为空",
+		"add_data": {
+			"loginName": "",
+			"userName": "测试账号",
+			"isEnable": 0,
+			"munit": 11,
+			"isAlone": 0,
+			"roleType": 3
+		},
+		"message": "插入成功"
+}
+]
+
+
