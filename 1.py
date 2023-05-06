@@ -13,7 +13,7 @@
 #         print("正确")
 #     else:
 #         print("不符合")
-
+import openpyxl
 
 # import pdfkit
 #
@@ -22,3 +22,24 @@
 #
 # # converting html file to pdf file
 # pdfkit.from_file(r'C:\Users\Administrator\PycharmProjects\WPZLZP\report\20230320 145828 report.html', 'output.pdf', configuration=config)
+
+
+# 指定要操作的excel文件
+wb = openpyxl.load_workbook("login.xlsx")
+# 获取要操作的sheet
+sheet = wb["login_case"]
+# 获取工作表中的最大行数
+rows = sheet.max_row
+# 获取工作表中的最大列数
+clos = sheet.max_column
+
+r = sheet.rows
+c = sheet.columns
+
+
+for i in list(r):
+    case = []
+    for j in i :
+        case.append(j.value)
+
+    print(case)

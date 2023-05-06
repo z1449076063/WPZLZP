@@ -19,7 +19,7 @@ class LoginApi:
 if __name__ == "__main__":
     # url = "https://wpzlzp1.zhihuihedao.cn/smart_pipe/user/open/login"
     # headers = {"Content-Type": "application/json;charset=UTF-8"}
-    login_data = {"account": "13885598575", "password": "123456"}
+    login_data = {"account": "13885598575", "password": ""}
     a = LoginApi()
     l = a.login(login_data)
     print(l.json())

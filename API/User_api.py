@@ -36,8 +36,8 @@ class UserApi:
 
 if __name__ == '__main__':
     add_data = {
-                "loginName": "15552633697",
-                "userContact": "15552633697",
+                "loginName": "17552633697",
+                "userContact": "17552633697",
                 "userName": "测试账号",
                 "userPwd": "",
                 "avatar": "",

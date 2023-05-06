@@ -22,8 +22,9 @@ def get_sql(host, port, username, password, db, s):
     cur.execute(s)
 
     # 控制台输出sql运行结果
-    return cur.execute(s)
-    # print(cur.execute(s))
+    cur.execute(s)
+    print(cur.execute(s))
+    conn.commit()
 
     # 关闭连接
     conn.close()
